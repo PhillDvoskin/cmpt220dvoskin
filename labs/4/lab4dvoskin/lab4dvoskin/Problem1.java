@@ -11,7 +11,6 @@ public class Problem1 {
 		int[] centimeters = new int[252];
 		int x = 1;
 		// make a for loop to iterate 50 times for each inch
-		// JA: It's not printing all the values
 		for (int i = 1; i < 51; i++) {			
 			inches[i] = i;
 			// if the inch is less than 10 return 1 space more to compensate for the spacing
