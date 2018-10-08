@@ -15,7 +15,7 @@ public class Problem2 {
             standardDeviation += Math.pow(num - mean(x), 2);
         }
 		// return the standard Deviation
-        return Math.sqrt(standardDeviation/length);
+        return Math.sqrt(standardDeviation/(length - 1)); // JA
 	}
 	public static double mean(double[] x) {
 		// makes a double sum with the placeholder value of 0
