@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class Problem6 {
 	
+	// JA: This needs to take also the column number to average
 	public static double averageRow(double[][] array) {
 		double sum = 0;
 		for (int i = 0; i < array.length; i++) {
